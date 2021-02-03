@@ -12,7 +12,7 @@ export function preprocessor(code: string, options: PrettierParserOptions) {
 
     const defaultConfig = {
         sourceType: 'module',
-        plugins: ['typescript', 'jsx'],
+        plugins: ['classProperties', 'typescript', 'jsx'],
     } as ParserOptions;
     const babelConfig = loadPartialConfig() as ParserOptions;
     const mergedOptions = merge(defaultConfig, babelConfig);
