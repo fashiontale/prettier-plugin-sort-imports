@@ -1,3 +1,5 @@
+// Modified by fashiontale to include classProperties as preprocessor
+
 import { parse as parser, ParserOptions } from '@babel/parser';
 import { merge } from 'lodash';
 import { loadPartialConfig } from '@babel/core';
